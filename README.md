@@ -1,100 +1,111 @@
 <div align="center">
 
 # Sakthi Nandhan
+### AI Engineer | Agentic AI & Multimodal Systems
 
-### AI Engineer · Agentic AI · Multimodal AI · AI Architecture
+**Production AI Systems · Computer Vision · AI Architecture**
 
-**Designing AI systems for document intelligence, financial fraud investigation, industrial analytics, and enterprise automation.**
+Building AI-powered solutions for financial services, document intelligence, industrial analytics, and enterprise automation.
 
-[![GitHub](https://img.shields.io/badge/GitHub-sakthinandhan95--svg-181717?logo=github&logoColor=white)](https://github.com/sakthinandhan95-svg)
-![Python](https://img.shields.io/badge/Python-Engineering-3776AB?logo=python&logoColor=white)
-![AI](https://img.shields.io/badge/Focus-Production_AI-2563eb)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-334155?style=for-the-badge)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-2563EB?style=for-the-badge)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-[Explore Projects](#selected-projects) · [Technical Skills](#technical-skills) · [Engineering Approach](#engineering-approach)
+[Featured Projects](#-featured-projects) · [Skills](#-technical-stack) · [Project Readiness](#-project-readiness-checklist) · [Contact](#-connect)
 
 </div>
 
 ---
 
-## About Me
+## 🚀 Featured Projects
 
-I'm an AI engineer interested in the intersection of **agentic workflows, multimodal AI, computer vision, and scalable AI architecture**. I work with language and vision-language models, retrieval pipelines, API-based services, and ML workflows to solve real operational problems.
+<table>
+<tr>
+<td width="50%" valign="top">
+<img src="./assets/fraud.svg" alt="Agentic fraud investigation concept" width="100%"/>
+<h3>Agentic Fraud Investigation</h3>
+<p><strong>AI Agents · RAG · Risk Analysis</strong></p>
+<p>Transaction risk scoring, evidence retrieval, and structured investigation workflows with LangGraph, FastAPI, PostgreSQL, and Milvus.</p>
+<sub>Case study in preparation · Concept illustration</sub>
+</td>
+<td width="50%" valign="top">
+<img src="./assets/document.svg" alt="Multimodal document AI concept" width="100%"/>
+<h3>Multimodal Document AI</h3>
+<p><strong>VLM · OCR · Image Forensics</strong></p>
+<p>Document understanding and suspicious-edit analysis for invoices, payslips, and identity documents using OCR and vision-language models.</p>
+<sub>Case study in preparation · Concept illustration</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<img src="./assets/invoice.svg" alt="Intelligent invoice processing concept" width="100%"/>
+<h3>Intelligent Invoice Processing</h3>
+<p><strong>Gemini · FastAPI · Automation</strong></p>
+<p>AI-assisted invoice extraction, normalization, customer enrichment, validation, and API-based workflow integration.</p>
+<sub>Case study in preparation · Concept illustration</sub>
+</td>
+<td width="50%" valign="top">
+<img src="./assets/industrial.svg" alt="Industrial predictive AI concept" width="100%"/>
+<h3>Industrial Predictive AI</h3>
+<p><strong>ML · Anomaly Detection · Analytics</strong></p>
+<p>Industrial analytics, anomaly detection, simulation, and virtual commissioning concepts for operational intelligence.</p>
+<sub>Case study in preparation · Concept illustration</sub>
+</td>
+</tr>
+</table>
 
-My areas of focus include financial document analysis, fraud investigation, invoice automation, and industrial AI. I value reproducible results, secure data handling, evaluation, and deployment-ready engineering.
+> Illustrations represent portfolio concepts, not screenshots of deployed applications. Some project implementations are private; public case studies will use permission-cleared details and synthetic data.
 
-## Technical Skills
+## 🧰 Technical Stack
 
-| Area | Technologies and concepts |
+| Area | Technologies |
 | --- | --- |
-| **Agentic & Generative AI** | LangGraph, LLMs, RAG, embeddings, vector search, structured outputs, tool orchestration |
-| **Multimodal AI** | Vision-language models, OCR, document understanding, image preprocessing, visual anomaly detection |
-| **ML & Data Science** | Python, PyTorch, scikit-learn, JAX, predictive analytics, model evaluation |
-| **Backend & Data** | FastAPI, REST APIs, PostgreSQL, Redis, RabbitMQ, Milvus |
-| **Cloud & MLOps** | Docker, Kubernetes, Microsoft Azure, Linux, CI/CD, Prometheus, Grafana |
-| **Engineering Practices** | API design, asynchronous workflows, testing, observability, security, architecture documentation |
+| **AI Agents & GenAI** | LangGraph, LLMs, RAG, tool orchestration, structured outputs |
+| **Multimodal AI** | OCR, vision-language models, OpenCV, document analysis |
+| **ML & Data Science** | Python, scikit-learn, PyTorch, JAX, SQL |
+| **Backend & Data** | FastAPI, PostgreSQL, Redis, RabbitMQ, Milvus |
+| **Infrastructure** | Docker, Linux, Kubernetes, Azure, GitHub Actions |
+| **Monitoring** | Prometheus, Grafana, application observability |
 
-## Selected Projects
+## 📋 Project Readiness Checklist
 
-These are portfolio focus areas; some associated repositories are private or under development. Descriptions are not claims of independently audited production deployment.
+Every featured project is being prepared to include the following evidence. **Unchecked means not yet verified for the public portfolio**, not necessarily missing from the underlying private project.
 
-### 01 · Agentic Financial Fraud Investigation
-**Agentic AI · RAG · Risk Analysis**
+- [ ] Clear business problem and solution
+- [ ] System architecture diagram
+- [ ] Technology stack and engineering decisions
+- [ ] Installation and Docker setup
+- [ ] Sample API requests and responses
+- [ ] Screenshots or demonstration video
+- [ ] Tests, evaluation metrics, and limitations
+- [ ] Security considerations and sanitized sample data
+- [ ] GitHub Actions CI workflow
 
-Exploring transaction risk assessment, retrieval-backed evidence gathering, and structured investigation workflows using AI orchestration and backend services.
+## 💻 Explore Public Code
 
-**Relevant stack:** Python · FastAPI · LangGraph · PostgreSQL · Milvus · Redis · RabbitMQ
-
-### 02 · Multimodal Document Intelligence
-**Computer Vision · OCR · Vision-Language Models**
-
-Document extraction and analysis workflows for invoices, payslips, and identity documents, with emphasis on field consistency and suspicious visual modifications.
-
-**Relevant stack:** Python · OCR · VLMs · image processing · structured validation
-
-### 03 · Intelligent Invoice Automation
-**Document AI · Backend Architecture · Automation**
-
-Extraction, normalization, customer data enrichment, validation, and authenticated API communication for invoice-processing workflows.
-
-**Relevant stack:** Python · FastAPI · Gemini · Docker · REST APIs
-
-### 04 · Industrial AI & Virtual Commissioning
-**Machine Learning · Industrial Analytics · Simulation**
-
-AI-assisted analysis and virtual commissioning workflows for industrial and automation use cases.
-
-**Relevant themes:** Predictive analytics · monitoring · simulation · validation
-
-## Explore My Public Code
-
-| Repository | What to explore |
+| Repository | Description |
 | --- | --- |
-| [AI_Learn](https://github.com/sakthinandhan95-svg/AI_Learn) | AI learning and experiments |
-| [build-an-mlp-in-jax-from-scratch](https://github.com/sakthinandhan95-svg/build-an-mlp-in-jax-from-scratch) | Neural network implementation in JAX |
-| [Bank-Fraud-Detection](https://github.com/sakthinandhan95-svg/Bank-Fraud-Detection) | Forked reference repository for fraud-detection learning |
+| [AI_Learn](https://github.com/sakthinandhan95-svg/AI_Learn) | AI experiments and learning notebooks |
+| [build-an-mlp-in-jax-from-scratch](https://github.com/sakthinandhan95-svg/build-an-mlp-in-jax-from-scratch) | Building a neural network with JAX |
+| [Bank-Fraud-Detection](https://github.com/sakthinandhan95-svg/Bank-Fraud-Detection) | Forked reference project for fraud detection learning |
 
-> For proprietary or private work, portfolio write-ups should use sanitized architecture diagrams, synthetic inputs, and permission-cleared descriptions rather than confidential code or documents.
+## 🔍 Engineering Approach
 
-## Engineering Approach
+**Design → Build → Validate → Deploy → Monitor**
 
-- **Architect:** Define the business problem, interfaces, data flow, and failure modes.
-- **Build:** Create modular services and structured model pipelines.
-- **Validate:** Use tests, representative evaluation datasets, and clear acceptance criteria.
-- **Operate:** Plan for security, monitoring, logging, and deployment.
-- **Document:** Explain architecture decisions, reproducible setup, and limitations.
-
-## Current Focus
-
-**Agentic AI · Multimodal Document Intelligence · Enterprise RAG · AI Architecture · MLOps**
+I focus on modular AI services, reproducible evaluation, secure data handling, well-defined APIs, observability, and clear architecture documentation.
 
 ---
 
 <div align="center">
 
-### Let's Connect
+### 🤝 Connect
 
-[GitHub Profile](https://github.com/sakthinandhan95-svg) · [Repositories](https://github.com/sakthinandhan95-svg?tab=repositories)
+[GitHub](https://github.com/sakthinandhan95-svg) · [Repositories](https://github.com/sakthinandhan95-svg?tab=repositories)
 
-<sub>Portfolio repository: <a href="https://github.com/sakthinandhan95-svg/sakthinandhan">sakthinandhan</a></sub>
+<sub>AI Engineering · Agentic AI · Multimodal Systems · AI Architecture</sub>
 
 </div>
